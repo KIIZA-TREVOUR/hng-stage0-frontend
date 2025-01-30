@@ -25,4 +25,4 @@ A responsive and visually appealing profile card built with **HTML, CSS, and Jav
 
 ## Live Demo
 
-Check out the live demo hosted on [Netlify](https://your-netlify-link.netlify.app) or [GitHub Pages](https://your-username.github.io/profile-card).
+Check out the live demo hosted on [Netlify](https://trevourprofile.netlify.app/)
