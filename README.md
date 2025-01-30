@@ -19,7 +19,7 @@ A responsive and visually appealing profile card built with **HTML, CSS, and Jav
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/profile-card.git
+   git clone https://github.com/KIIZA-TREVOUR/hng-stage0-frontend.git
    ```
 2. Open `index.html` in your browser to view the profile card.
 
