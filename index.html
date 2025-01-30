@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="card">
+    <!-- Profile Picture -->
+    <img 
+      src="assets/images/myphoto.png" 
+      alt="Profile Picture" 
+      data-testid="profilePicture" 
+      class="profile-pic"
+    >
+
+    <!-- Full Name -->
+    <h1 data-testid="fullName" class="myname">Kiiza Trevour</h1>
+
+    <!-- Job Title -->
+    <p data-testid="jobTitle" class="role">Frontend Developer</p>
+
+    <!-- My BRief Bio -->
+    <p data-testid="shortBio" class="bio">
+      A self-taught frontend developer passionate about creating beautiful and interactive user interfaces. Currently learning and building projects to grow my skills with HNG Internship.
+    </p>
+
+    <!-- Current Location -->
+    <p data-testid="currentLocation" class="mylocation">Gulu City, Uganda</p>
+
+    <!-- Email Address -->
+    <p data-testid="emailAddress" class="myemail">kiizatrevour@gmail.com</p>
+
+    <!-- Social Links -->
+    <div data-testid="socialLinks" class="social-links">
+      <a href="https://www.linkedin.com/in/kiiza-trevour-82037a1a7/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/KIIZA-TREVOUR" target="_blank">GitHub</a>
+      <a href="https://x.com/KiizaTrevour" target="_blank">Twitter</a>
+    </div>
+
+    <!-- Current Time in UTC -->
+    <p data-testid="currentTimeUTC" class="current-utc-time"> Current UTC Time: <span id="time"></span></p>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
